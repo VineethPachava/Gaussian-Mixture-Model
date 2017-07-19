@@ -4,14 +4,6 @@ Created on Sun Apr  9 14:35:23 2017
 
 @author: vineeth
 """
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  9 09:24:05 2017
-
-@author: vineeth
-"""
-
 import numpy as np
 from PIL import Image
 import os
