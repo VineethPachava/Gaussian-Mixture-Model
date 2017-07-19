@@ -1,1 +1,1 @@
-# Kmeans-Gaussian-Clustering
+# Gaussian Mixture Model
