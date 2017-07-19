@@ -71,7 +71,7 @@ def covariance(a,b,c):                                #covariance, a= input, b =
     
     
     
-os.chdir('C:/Users/vineeth/Desktop/Assignment_list')
+
 
 im = Image.open('ski_image.jpg','r')                        #reading image file
 image_out = Image.new(im.mode,im.size)                      #creating object for output file
@@ -126,7 +126,7 @@ for i in range (len(pix)):
     elif max(a,b,c) == c:
         pix_out[i] = 10*mean_3
 
-np.savetxt('Assignment-2-loglikelyhood vs iterations.txt', np.c_[m,n], fmt='%0.8g', delimiter='    ', newline=os.linesep)
+np.savetxt('loglikelyhood vs iterations.txt', np.c_[m,n], fmt='%0.8g', delimiter='    ', newline=os.linesep)
 plt.plot(n,m)
 plt.show()
 image_out.putdata(tuple(map(tuple, pix_out)))
